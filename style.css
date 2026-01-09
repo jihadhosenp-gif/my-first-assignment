@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+}
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+   
+nav{
+    height: 92px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+};
+
+.logo {
+    
+    width: 139px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 16px 120px;
+}
+.main{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 32px;
+}
+.main li a{
+  display:flex ;
+  justify-content: center;
+  text-decoration: none;
+  font: 1em sans-serif;
+  color: #0b0a0a;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 15px
+}
+.main li button{
+    background-color:#30B868;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: right;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px auto;
+    cursor: pointer;
+}
+.home{
+    background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 674px;
+
+}
+section{
+    width: 1360px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    color: #fffafa;
+    
+
+}
+.content h1{
+    font: 900;
+    color: #f7f5f5;
+}
+#bur{
+    width: 800px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+
+}
+.bur1{
+    background-color: #30B868;
+    color: #fcf9f9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bur2{
+    background-color: transparent;
+    border-color: #fffafa;
+    color: #000;
+    cursor: pointer;
+}
+
+.second_section{
+    width: 1600px;
+    height: 500px;
+    margin: 0px;
+    display: flex;
+    text-align: center; 
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+.first_notes{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+}
+.first_notes .notes{
+    width: 330px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+    border-radius: 8px; 
+    gap: 15px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 1);
+   
+}
+.my_img{
+    background-color: #F95555;
+    border-radius: 50%;
+}
+.first_notes h3{
+    color:#001931;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+   
+
+}
+.first_notes p{
+    color: #627382;
+    text-align: center;
+
+}
+.card_info{
+    height: 600px;
+    width: 1300px;
+    margin: 120px;
+    display: flex;
+    align-items: center;
+    
+}
+   
+.content{
+   height: 600px;
+   width: 600px; 
+}
+.post{
+    width: 700px;
+    height: 397px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    gap: 30px;
+    margin: 100px 60px;
+
+
+}
+.post h4{
+    color: #30B868;
+}
+.post h1{
+    font-weight: bold;
+}
+.post p{ 
+    font-weight: 400;
+    color: #627382;
+}
+.post .icon{
+    list-style-image: url(./B13-A01-Knowledge-Vault/assets/CheckCircle.png);
+    font-size: 16px;
+    font-weight: 500px;
+    clear: #001931;
+    gap: 15px;
+}
+    
