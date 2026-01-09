@@ -69,9 +69,18 @@ section{
     display: flex;
     justify-content: center;
 }
+.open {
+    width: 230px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    color: #30B868;
+    cursor: pointer;
+}
 .content{
     height: 400px;
     width: 800px;
+    margin: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,24 +92,26 @@ section{
 
 }
 .content h1{
-    font: 900;
+    font-weight: 900px;
     color: #f7f5f5;
 }
-#bur{
-    width: 800px;
-    height: 50px;
+#button{
     display: flex;
-    justify-content: center;
-    gap: 90px;
-
+    gap: 50px;
 }
+
 .bur1{
+    width: 250px;
+    height: 50px;
     background-color: #30B868;
     color: #fcf9f9;
     border-radius: 5px;
     cursor: pointer;
 }
+
 .bur2{
+    width: 250px;
+    height: 50px;
     background-color: transparent;
     border-color: #fffafa;
     color: #000;
@@ -217,6 +228,7 @@ section{
     align-items: center;
     margin-left: 120px;
     background-color: #F7F6F2;
+    border-radius: 5px;
 }
 .clearly h1{
     margin: 20px;
@@ -240,5 +252,38 @@ section{
     color: #fffafa;   
      
 }
+.Social_info{
+     background-color: #001931;
+     height: 360px;
+     width: 100%;
+     margin-top: 120px;
+}
+.first_footer{
+    height: 65px;
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+    gap: 20px ;
+    align-content: flex-start;
+
+
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+    border-top: 1px solid black;
+    color: #F7F6F2;
+}
+.Social{
+    height: 65px;
+    width: 235px;
     
-    
+}
+.Social p{
+    color: #F7F6F2;
+}
